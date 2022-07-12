@@ -26,6 +26,7 @@ public class GuardianEnforcer : MonoBehaviour
             CenterPlayer();
         }
     }
+    
     void CenterPlayer()
     {
         point1.transform.localPosition = (points[0]);
